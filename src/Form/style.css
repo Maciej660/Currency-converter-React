@@ -1,0 +1,64 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    text-align: center;
+    line-height: 2;
+    background-image: url("../images/currency.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 70px;
+
+}
+.form__fieldset {
+    border: 1px solid blue;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.form__field {
+    border: 2px solid #ccc;
+    padding: 8px;
+    width: 100%;
+    max-width: 150px;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.form__legend {
+    background-color: rgb(162, 141, 141);
+    color: rgb(30, 255, 0);
+    padding: 4px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 160px;
+    text-align: center;
+}
+
+
+.form__labelText {
+    width: 100%;
+    max-width: 140px;
+    min-width: 140px;
+    display: inline-block;
+    margin-right: 5px;
+    text-decoration-color: white;
+    color: white;
+}
+
+.form__result {
+    margin: 20px;
+    color: white;
+}
+
+.form__info {
+    color: white;
+}
